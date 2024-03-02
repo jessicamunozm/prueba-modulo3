@@ -1,0 +1,182 @@
+:root {
+    --rojo: #ec2029;
+    --celeste: #29a8df;
+    --amarillo: #f4f300;
+    --rojoOscuro: #e20004;
+    --negro: #000;
+}
+
+body {
+background-color: var(--rojo);
+font-family: quicksand;
+
+}
+
+/* NAVBAR */
+.navbar {
+    font-weight: bolder;
+    background-color: var(--amarillo);
+    border-bottom: 10px solid var(--negro);
+    height: auto;
+}
+
+nav img {
+    margin: 1rem;
+}
+
+#dropdownstyle {
+    background-color: var(--amarillo);
+    font-weight: bolder;
+}
+
+#dropdown {
+    background-color: var(--amarillo);
+}
+/* FIN NAVBAR */
+
+header {
+text-align: center;
+margin-top:2rem;
+}
+
+#imgHeaderDiv {
+    width: 30vw;
+    min-width: 320px;
+}
+
+#imgHeader {
+width: 100%;
+}
+
+h1 {
+    color: var(--negro);
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* FORMULARIO */
+form {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+label {
+    color: var(--negro);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: var(--amarillo);
+    margin-top: 2rem;
+    font-weight: bolder;
+    border-color: var(--negro);
+    border-width: 5px;
+}
+
+input {
+    border-width: 3px;
+    border-color: var(--negro);
+    border-style: solid;
+    background-color: var(--amarillo);
+}
+
+.btn {
+    background-color: var(--amarillo);
+    border-radius: 100%;
+    border-color: var(--negro);
+    border-width: 3px;
+    margin-top: 0.5rem;
+   
+}
+
+/* NO PUDE QUITAR HOVER DE BOTÓN ASÍ QUE LO DEJÉ, PERO DEJANDO LOS MISMOS ESTILOS BEFORE HOVER*/
+.btn:hover {
+    background-color: var(--amarillo);
+    border-radius: 100%;
+    border-color: var(--negro);
+    border-width: 3px;
+    margin-top: 0.5rem;
+}
+
+#boton {
+    text-align: center;
+}
+
+#error {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--amarillo);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#nombre {
+    color: var(--negro);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#imgHero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#card {
+    background-color: var(--amarillo);
+    color: var(--negro);
+    font-weight: bold;
+    border-color: var(--negro);
+    border-width: 3px;
+    list-style: none;
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.list-group {
+    list-style: none;
+}
+
+#chartContainer {
+    margin-top: 3%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 7rem;
+    background-color: var(--celeste);
+    margin-top: 2%;
+    text-align: center;
+    border-top: 10px solid var(--negro);
+}
+
+
+footer i {
+    font-size: xx-large;
+    color: var(--negro);
+justify-content: center;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+#footer {
+    background-color: var(--amarillo);
+    border-top: 10px solid var(--negro);    
+    border-bottom: 10px solid var(--negro);    
+}
+h5 {
+    padding-top: 1rem;
+    color: var(--negro);
+    font-weight: bold;
+}
+
+h6 {
+    color:var(--negro);
+    padding-bottom: 1rem;
+}
