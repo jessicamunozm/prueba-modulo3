@@ -142,8 +142,15 @@ input {
     list-style: none;
 }
 
+/* PARA BORRAR CRÉDITOS DE CANVAS JS (LINK INFERIOR IZQ DEL GRÁFICO) */
+.canvasjs-chart-credit { 
+display: none;
+}
+
+
 #chartContainer {
     margin-top: 3%;
+   
 }
 
 /* FOOTER */

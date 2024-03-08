@@ -63,6 +63,7 @@ $("#alianzas").html(alianzasHTML);
         fontFamily: "quicksand",
         
         },
+        credits: null,
         backgroundColor: "transparent",
         exportEnabled: false,
         animationEnabled: false,
